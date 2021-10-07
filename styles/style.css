@@ -26,7 +26,7 @@
 }
 .logo_place_header {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   height: 31px;
   width: 154px;
   margin-top: 30px;
@@ -45,8 +45,9 @@
 .header__subtitle {
   position: absolute;
   width: 388px;
-  left: 64px;
+  margin-left: 64px;
   bottom: 30px;
+  margin-bottom: 30px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -124,6 +125,7 @@
   font-weight: normal;
   width: 60%;
   margin-bottom: 60px;
+  margin-top: 20px;
 }
 
 /* including elements with key-value modifiers */
@@ -142,7 +144,7 @@
   margin-right: 15px;
 }
 .table__heading {
-  bottom: 20px;
+  margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -151,6 +153,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-bottom: 20px;
 }
 
 .feynman {
@@ -187,6 +190,9 @@
   font-weight: normal;
   top: 50%;
   right: 48px;
+  margin-right: 48px;
+  text-decoration: none;
+  color: #2f80ed;
 }
 .feynman__image {
   position: absolute;
@@ -212,8 +218,8 @@
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-  top: 90px;
-  bottom: 20px;
+  margin-top: 90px;
+  margin-bottom: 20px;
   width: 60%;
 }
 .section-subtitle_theme_dark {
@@ -221,30 +227,30 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  bottom: 80px;
-  top: 20px;
+  margin-bottom: 80px;
+  margin-top: 20px;
   width: 60%;
 }
 .table_theme_dark {
   width: 1100px;
-  bottom: 90px;
-  left: auto;
-  right: auto;
+  margin-bottom: 90px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .table__cell_theme_dark {
   z-index: 1;
   width: 200px;
-  bottom: 80px;
+  margin-bottom: 80px;
   margin-top: 80px;
   color: white;
-  margin-right: 0;
+  margin-right: 20px;
 }
 
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  bottom: 20px;
+  margin-bottom: 20px;
 }
 .table__text_theme_dark {
   line-height: 1.2;
@@ -261,12 +267,13 @@
   top: 60px;
   bottom: 40px;
   width: 90%;
+  justify-content: center;
 }
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  position: relative;
+  justify-content: space-between;
 }
 .footer__column_content_about {
   display: flex;
@@ -304,18 +311,14 @@
   margin-bottom: 20px;
 }
 .logo_place_footer {
-  margin-left: 60px;
   margin-top: 60px;
   width: 183px;
   height: 35px;
 }
 
 .footer__author {
-  position: absolute;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  top: 250px;
-  margin-left: 70px;
   color: white;
 }
