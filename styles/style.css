@@ -115,6 +115,7 @@
   flex-direction: column;
   justify-content: center;
   margin-top: 100px;
+  margin-bottom: 40px;
   align-items: center;
 }
 .section-title {
@@ -229,7 +230,7 @@
   align-items: center;
   z-index: 1;
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 10px;
 }
 .kaufman__triangle {
   position: absolute;
@@ -313,7 +314,7 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 0;
   padding: 0;
 }
