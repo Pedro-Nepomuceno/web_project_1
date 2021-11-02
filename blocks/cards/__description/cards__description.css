@@ -1,11 +1,7 @@
 .cards__description {
-    line-height: 23px;
-    font-size: 18px;
-    font-weight: normal;
-    margin-top: 0;
-    
-  }
-
-  .cards__description:last-child {
-    margin-bottom: 0;
-  }
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
