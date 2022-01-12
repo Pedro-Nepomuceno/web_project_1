@@ -2,7 +2,7 @@
 ------
 <p align="center">The project shows how the process of learning works and what techniques are available for anyone who is interested in mastering a new skill</p>
 -------
-[github repo](https://github.com/Pedro-Nepomuceno/web_project_1)
+https://pedro-nepomuceno.github.io/web_project_1/
 -------
 The website was built using: 
 * html
